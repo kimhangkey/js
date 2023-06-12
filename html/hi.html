@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        alert("hello");
+        // window.alert("hi");
+        let age = prompt("당신의 나이는?");
+        document.write(age);
+
+        // setTimeout(() => {
+        //     location = "http://www.naver.com";
+        // }, 3000);
+
+        setInterval(function () {
+            // location = "http://www.daum.net";
+            location.href = "http://www.coupang.com"
+            location.reload();
+            // 둘 다 적용시 순서상 마지막 코드가 먹힌다.
+        }, 3000);
+    </script>
+</head>
+<body>
+    
+    
+</body>
+</html>
